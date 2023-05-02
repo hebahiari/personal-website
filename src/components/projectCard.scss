@@ -1,0 +1,36 @@
+
+.card {
+    width: 300px;
+    background-color: aquamarine;
+    border-radius: 10%;
+    display: flex;
+    justify-content: flex-start ;
+    flex-direction: column;
+  img{
+     width: 100%;
+  }
+
+  a{
+        text-decoration: none;
+    display: flex;
+    img{
+         width: 20px;
+    }
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tag{
+    border: 1px;
+    padding: 5px;
+    background-color: blueviolet;
+    margin: 5px;
+  }
+  }
+  
+
+
+  

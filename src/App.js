@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './pages/Header';
+import Header from './components/Header';
 import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
