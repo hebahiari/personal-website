@@ -1,7 +1,9 @@
 .projects{
     display: flex;
     justify-content: center;
+    gap: 50px;
     flex-wrap: wrap;
     max-width: 1200px;
     margin:0 auto;
+    padding-top: 30px;
 }

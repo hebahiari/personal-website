@@ -1,9 +1,31 @@
-.about{
+.about {
+  max-width: 300px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(109, 109, 109);
 
-    .button{
-        text-decoration: none;
-        background-color: aquamarine;
-        border-radius: 25px;
-        padding: 10px;
-    }
+  .profilepic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h1,
+  p {
+    margin: 0;
+  }
+
+  .button {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 10px;
+  }
 }
