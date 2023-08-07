@@ -29,6 +29,18 @@ let projects = [
   },
 
   {
+    name: "TechTopic",
+    type: "(Blog/Social Website)",
+    desc: "An e-commerce website built to sell products, with a React frontend that utilizes react router and redux for smooth navigation and user experience. The backend of the site is developed using Strapi, which also serves as the database management system for the site. To facilitate online transactions, the site uses Stripe as its payment portal.",
+    tags: ["JavaScript", "Next.js", "React", "MongoDB"],
+    image: "/img/portfolio/TechTopic.PNG",
+    links: [
+      "https://github.com/hebahiari/techtopic",
+      "https://techtopic.hebahiari.com/",
+    ],
+  },
+
+  {
     name: "Booked.",
     type: "(Scheduling website)",
     desc: "This is a full stack restaurant reservation system built with JavaScript/React for the frontend, and Node/Express with Knex for the backend. The website is designed to be responsive, with a user-friendly UI styled using CSS and Bootstrap.   ",

@@ -1,18 +1,19 @@
 import React from "react";
 import "./projectCard.scss";
 import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
+import { BiLinkAlt } from "react-icons/bi";
 
 function ProjectCard({ project }) {
   let { name, desc, tags, image, links, type } = project;
   return (
     <div className="card">
-      <a href={links[1]}>
+      <a href={links[1]} target="_blank">
         <img src={image} />
       </a>
 
       <div className="description">
         <div className="info">
-          {" "}
           <div className="title">
             <div className="name">
               <h3>{name}</h3>
@@ -21,12 +22,12 @@ function ProjectCard({ project }) {
 
             <div className="icons">
               {links[1] ? (
-                <a href={links[1]}>
-                  <img src="https://cdn4.iconfinder.com/data/icons/materia-social-free/24/038_030_share_link_friends_send_android_material-64.png" />
+                <a href={links[1]} target="_blank">
+                  <BiLinkAlt />
                 </a>
               ) : null}
-              <a href={links[0]}>
-                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-64.png" />
+              <a href={links[0]} target="_blank">
+                <FaGithub />
               </a>
             </div>
           </div>
