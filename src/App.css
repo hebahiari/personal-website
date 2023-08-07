@@ -1,16 +1,30 @@
 body {
   width: 100%;
   margin: 0;
-  color: rgb(39, 39, 39);
+  color: rgb(60, 60, 60);
+  background-color: rgb(255, 255, 255);
 }
 
 body {
-  background: linear-gradient(270deg, #f29d7d, #88a5f0);
+  /* background: linear-gradient(270deg, #f29d7d, #88a5f0);
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 20s ease infinite;
   -moz-animation: AnimationName 20s ease infinite;
-  animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite; */
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+p {
+  line-height: 22px;
 }
 
 @-webkit-keyframes AnimationName {
@@ -65,8 +79,15 @@ canvas {
   min-width: 400px;
 }
 
+.app {
+}
+
 @media (min-width: 700px) {
   .container {
     flex-direction: row;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
   }
 }

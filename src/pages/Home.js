@@ -1,26 +1,44 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.scss";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Home() {
   return (
     <div className="about">
-      <img src="/img/Heba.jpg" className="profilepic" />
+      <div className="background"></div>
+      <img src="/img/Heba.jpeg" className="profilepic" />
       <h1>Heba Alhyari</h1>
+      <h2>Full Stack Engineer</h2>
       <div className="icons">
         <a target="_blank" href="https://github.com/hebahiari">
-          <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-64.png" />
+          <FaGithub />
         </a>
         <a target="_blank" href="https://www.linkedin.com/in/hebadev/">
-          <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png" />
+          <FaLinkedin />
         </a>
         <a target="_blank" href="https://www.instagram.com/capturingflow/">
-          <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" />
+          <FaInstagram />
         </a>
       </div>
       <p>
-        An architect turned software engineer, with a diverse skillset of
-        problem-solving, building full-stack websites and design.
+        Fullstack engineer with a focus on developing and implementing web-based
+        solutions, maintaining and updating web applications, and improving the
+        user experience.
+      </p>
+      <h3>Skills:</h3>
+      <p className="skills">
+        <b>Front-end:</b> HTML5, CSS3, JavaScript, TypeScript, React.js, React
+        Router, Next.js
+      </p>
+      <p className="skills">
+        <b>Back-end:</b> Node.js, Express, PostgreSQL, Knex
+      </p>
+      <p className="skills">
+        <b>Cloudnd:</b> AWS, MongoDB, Heroku, Vercel
+      </p>
+      <p className="skills">
+        <b>Design:</b> Figma, Adobe Photoshop/InDesign, Autodesk 3Ds Max
       </p>
       {/* <Link className="button">View Projects</Link> */}
     </div>

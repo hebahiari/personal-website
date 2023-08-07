@@ -10,7 +10,7 @@ import { Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <div className="container">
         <Home className="about" />
         <Projects className="projects" />

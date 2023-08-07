@@ -68,9 +68,12 @@ let projects = [
 function Projects() {
   return (
     <div className="projects">
-      {projects.map((project) => (
-        <ProjectCard project={project} />
-      ))}
+      <h1>Projects</h1>
+      <div className="cards">
+        {projects.map((project) => (
+          <ProjectCard project={project} />
+        ))}
+      </div>
     </div>
   );
 }
