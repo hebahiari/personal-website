@@ -23,7 +23,7 @@ let projects = [
     tags: ["JavaScript", "React", "Express", "NodeJS", "Postgres"],
     image: "/img/portfolio/5.jpg",
     links: [
-      "https://github.com/hebahiari/petsgram",
+      "https://github.com/hebahiari/ecommerce",
       "https://techwearco.hebahiari.com/",
     ],
   },

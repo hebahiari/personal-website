@@ -10,6 +10,7 @@ function Home() {
       <img src="/img/Heba.jpeg" className="profilepic" />
       <h1>Heba Alhyari</h1>
       <h2>Full Stack Engineer</h2>
+      <p className="email">(hebahiary@gmail.com)</p>
       <div className="icons">
         <a target="_blank" href="https://github.com/hebahiari">
           <FaGithub />
@@ -26,6 +27,9 @@ function Home() {
         solutions, maintaining and updating web applications, and improving the
         user experience.
       </p>
+      <a href="Heba-Alhyari-Resume.pdf" target="_blank" class="button">
+        View Resume
+      </a>
       <h3>Skills:</h3>
       <p className="skills">
         <b>Front-end:</b> HTML5, CSS3, JavaScript, TypeScript, React.js, React

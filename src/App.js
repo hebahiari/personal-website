@@ -10,6 +10,9 @@ import { Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      <div className="loading">
+        <h1>Heba Alhyari</h1>
+      </div>
       {/* <Header /> */}
       <div className="container">
         <Home className="about" />

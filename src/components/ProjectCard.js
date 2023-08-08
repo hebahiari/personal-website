@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
   let { name, desc, tags, image, links, type } = project;
   return (
     <div className="card">
-      <a href={links[1]} target="_blank">
+      <a href={links[1]} target="_blank" className="imageContainer">
         <img src={image} />
       </a>
 
@@ -16,7 +16,9 @@ function ProjectCard({ project }) {
         <div className="info">
           <div className="title">
             <div className="name">
-              <h3>{name}</h3>
+              <a href={links[1]} target="_blank">
+                <h3>{name}</h3>
+              </a>
               <p>{type ? type : "type"}</p>
             </div>
 

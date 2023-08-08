@@ -5,15 +5,6 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-body {
-  /* background: linear-gradient(270deg, #f29d7d, #88a5f0);
-  background-size: 400% 400%;
-
-  -webkit-animation: AnimationName 20s ease infinite;
-  -moz-animation: AnimationName 20s ease infinite;
-  animation: AnimationName 20s ease infinite; */
-}
-
 h2 {
   padding: 0;
   margin: 0;
@@ -73,13 +64,63 @@ canvas {
 
 .about {
   min-width: 300px;
+  height: 650px;
+  margin-bottom: 20px;
 }
 
 .projects {
   min-width: 400px;
 }
 
-.app {
+.loading {
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 2;
+  animation: moveUp 5s;
+  animation-fill-mode: forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: antiquewhite;
+  gap: 10px;
+}
+
+.loading h1 {
+  color: rgb(221, 221, 221);
+  white-space: nowrap;
+  font-size: 100px;
+  animation: moveRight 5s;
+  font-family: "Arizonia", cursive;
+  animation-fill-mode: none;
+}
+
+.spinner {
+  width: 30px;
+  height: 30px;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-1000px);
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 700px) {
@@ -89,5 +130,13 @@ canvas {
     display: flex;
     justify-content: center;
     margin: auto;
+  }
+
+  .about {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    margin-bottom: 0;
   }
 }
