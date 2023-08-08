@@ -10,6 +10,7 @@
   // text-align: justify;
   -webkit-box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.34);
   box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.131);
+  overflow: hidden;
 
   &:hover {
     img {
@@ -30,6 +31,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    padding: 1px;
   }
 
   .title {
