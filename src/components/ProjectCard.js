@@ -33,7 +33,11 @@ function ProjectCard({ project }) {
               </a>
             </div>
           </div>
-          <p>{desc}</p>
+          <ul>
+            {desc.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
         </div>
 
         <div className="tags">

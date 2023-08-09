@@ -39,7 +39,7 @@ function Home() {
         <b>Back-end:</b> Node.js, Express, PostgreSQL, Knex
       </p>
       <p className="skills">
-        <b>Cloudnd:</b> AWS, MongoDB, Heroku, Vercel
+        <b>Cloud:</b> AWS, MongoDB, Heroku, Vercel
       </p>
       <p className="skills">
         <b>Design:</b> Figma, Adobe Photoshop/InDesign, Autodesk 3Ds Max
