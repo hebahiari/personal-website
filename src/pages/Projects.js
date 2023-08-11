@@ -56,7 +56,7 @@ let projects = [
       "Dark/Light mode",
     ],
     tags: ["JavaScript", "Next.js", "React", "MongoDB"],
-    image: "/img/portfolio/TechTopic.PNG",
+    image: "/img/portfolio/TechTopic.png",
     links: [
       "https://github.com/hebahiari/techtopic",
       "https://techtopic.hebahiari.com/",
