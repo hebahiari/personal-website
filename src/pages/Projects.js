@@ -64,6 +64,23 @@ let projects = [
   },
 
   {
+    name: "Trivia Night",
+    type: "(Quiz Game)",
+    desc: [
+      "Select difficulty",
+      "Answer questions before time runs out",
+      "Score is displayed at the end",
+      "Restart",
+    ],
+    tags: ["TypeScript", "React", "MUI"],
+    image: "/img/portfolio/8.PNG",
+    links: [
+      "https://github.com/hebahiari/quiz-app",
+      "https://trivia.hebahiari.com/",
+    ],
+  },
+
+  {
     name: "Booked.",
     type: "(Scheduling website)",
     desc: [
