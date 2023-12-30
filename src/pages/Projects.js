@@ -44,6 +44,26 @@ let projects = [
   },
 
   {
+    name: "Flower Image Classifier",
+    type: "(Image Classifier)",
+    desc: [
+      "Classifies pictures of flowers and returns type predictions",
+      "Trained deep learning model for flower classification",
+      "Used transfer learning with pre-trained VGG11 model",
+      "Demonstrated expertise in data preprocessing and model evaluation",
+      "Created efficient inference pipeline for real-world predictions",
+
+    ],
+    tags: ["Python", "PyTorch", "Matplotlib", "PIL", "React"],
+    image: "/img/portfolio/9.png",
+    links: [
+      "https://github.com/hebahiari/flower-classifier",
+      "https://flowers.hebahiari.com/",
+    ],
+  },
+
+
+  {
     name: "TechTopic",
     type: "(Blog/Social Website)",
     desc: [
