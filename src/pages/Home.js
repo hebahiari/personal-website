@@ -39,6 +39,9 @@ function Home() {
         <b>Back-end:</b> Node.js, Express, PostgreSQL, Knex
       </p>
       <p className="skills">
+        <b>Machine learning:</b> Python, PyTorch, Matplotlib, PIL
+      </p>
+      <p className="skills">
         <b>Cloud:</b> AWS, MongoDB, Heroku, Vercel
       </p>
       <p className="skills">
